@@ -1337,4 +1337,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Body: {fileID: 1505409704}
   Player: {fileID: 1985130508}
-  mouseSensitivity: 100
+  CameraPlayer: {fileID: 262743160}

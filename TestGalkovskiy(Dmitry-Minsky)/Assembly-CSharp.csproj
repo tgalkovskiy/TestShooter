@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{500D53DD-3BBC-8FB3-A375-4139DF8E19F6}</ProjectGuid>
+    <ProjectGuid>{89C89E68-4ECB-D825-6F08-74E4B14C028C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,31 +62,31 @@
      <Compile Include="Assets\Mirow.cs" />
      <Compile Include="Assets\MovePlayer.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/timurg/GitHub/Test(Dmitry-Minsky)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
