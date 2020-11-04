@@ -6,13 +6,21 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     [SerializeField] private float Speed, Sens;
+    [SerializeField] private GameObject OBJTest;
+    private string Name;
+    private int Health;
     private Vector3 Velocity;
+    private ReadEncoding ReadEncoding;
     public GameObject Player2;
     [SerializeField]
     private void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        Speed = ReadEncoding.INFOPLYER.speed;
+        Name = ReadEncoding.INFOPLYER.name;
+        OBJTest.GetComponent<MeshRenderer>().material.SetTexture("_BumMap",ReadEncoding.INFOPLYER.texture);
+        OBJTest.GetComponent<MeshRenderer>().material.EnableKeyword("_NORMALMAP");
     }
 
     void Start()

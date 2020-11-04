@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{89C89E68-4ECB-D825-6F08-74E4B14C028C}</ProjectGuid>
+    <ProjectGuid>{068ADAC5-58BA-5640-7233-0B14DE1A0333}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,35 +60,38 @@
   <ItemGroup>
      <Compile Include="Assets\ColorName.cs" />
      <Compile Include="Assets\DefoltColor.cs" />
+     <Compile Include="Assets\Encoding.cs" />
      <Compile Include="Assets\MainCamera.cs" />
      <Compile Include="Assets\Mirow.cs" />
      <Compile Include="Assets\MovePlayer.cs" />
+     <Compile Include="Assets\ReadEncoding.cs" />
+     <None Include="Assets\csc.rsp" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/timurg/TestShooter/TestGalkovskiy(Dmitry-Minsky)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/timurg/Desktop/FPS/TestGalkovskiy(Dmitry-Minsky) 14.36.58/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -626,6 +629,9 @@
  </Reference>
  <Reference Include="Boo.Lang">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.FileSystem.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
